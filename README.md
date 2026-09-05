@@ -2,6 +2,22 @@
 
 **Today's Work**
 
+- Completed Session 2 live coding problems.
+- Completed Session 2 assignment problems.
+- Added package structure for Session 2.
+
+**Next Session Plan**
+
+- Begin Session 3 coding problems.
+
+**Issues Faced**
+
+- None.
+
+## Date: 05-09-2026
+
+**Today's Work**
+
 * Completed Session 1 live coding problems.
 * Completed Week 1 assignment problems.
 * Organized code using `class_problems` and `assigment_problems`.
