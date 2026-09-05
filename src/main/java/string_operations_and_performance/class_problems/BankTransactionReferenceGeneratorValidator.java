@@ -1,4 +1,4 @@
-package replace_with_session_2_topic.class_problems;
+package string_operations_and_performance.class_problems;
 
 public class BankTransactionReferenceGeneratorValidator {
     public static String normalizeReference(String raw) {

@@ -1,4 +1,4 @@
-package replace_with_session_2_topic.assigment_problems;
+package string_operations_and_performance.assigment_problems;
 
 public class AtmPinLengthValidator {
     public static void checkPinLength(String pin) {
