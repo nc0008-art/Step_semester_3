@@ -26,6 +26,8 @@ public class LibraryFineSystem {
             this.daysOverdue = daysOverdue;
         }
 
+        // A fine belongs to one particular issue, whereas the total combines many
+        // issues and therefore belongs to the BookIssue class rather than one object.
         double fineAmount() { return daysOverdue > 0 ? daysOverdue * 5.0 : 0; }
         boolean isSeverelyOverdue() { return daysOverdue > 14; }
 

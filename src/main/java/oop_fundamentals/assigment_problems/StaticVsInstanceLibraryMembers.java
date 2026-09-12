@@ -17,7 +17,8 @@ public class StaticVsInstanceLibraryMembers {
     }
 
     static class BrokenLibraryMember {
-        // Static fields are shared, so separate members overwrite each other's values.
+        // name, memberId, and booksIssued describe one member, so each must be an
+        // instance field. Making any of them static shares it across every member.
         static String name;
         static String memberId;
         static int booksIssued;

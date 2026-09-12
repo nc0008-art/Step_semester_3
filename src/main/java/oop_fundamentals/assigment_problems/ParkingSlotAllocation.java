@@ -8,6 +8,8 @@ public class ParkingSlotAllocation {
     }
 
     static ParkingSlot findAvailableSlot(ParkingSlot[] slots) {
+        // The array reference is passed by value, but it still refers to the same
+        // ParkingSlot objects; no individual slots are copied by this method call.
         for (ParkingSlot slot : slots) {
             if (slot.occupiedCount < slot.capacity) return slot;
         }
@@ -39,6 +41,10 @@ public class ParkingSlotAllocation {
             if (occupiedCount >= capacity) return false;
             occupiedCount++;
             return true;
+        }
+
+        String getSlotNo() {
+            return slotNo;
         }
     }
 }
